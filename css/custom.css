@@ -1,0 +1,17 @@
+.poolTable {
+    width: 600px;
+    height: 300px;
+    background-color: darkgreen;
+    border: 5px solid #ad5f2e;
+    margin: auto;
+    position: relative;
+}
+.ball {
+    background: url('../img/ball.png');
+    display: block;
+    width: 35px;
+    height: 35px;
+    background-size: contain;
+    position: absolute;
+    transition: all 0.4s;
+}

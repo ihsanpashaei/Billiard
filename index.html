@@ -1,0 +1,38 @@
+ <!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>java script</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.9.1/font/bootstrap-icons.css">
+    <link rel="stylesheet" href="css/custom.css">
+</head>
+<body>
+    <h1 class="text-center" id="myHeading">Billiard Table</h1>
+    
+    <div class="poolTable">
+        <span id="ball" class="ball"></span>
+    </div>
+    <div class="text-center mt-3">
+        <button onclick="moveBall('left')" class="btn btn-success">
+            <i class="bi bi-arrow-left"></i>
+            Move left</button>
+        <button onclick="moveBall('right')" class="btn btn-success">
+            <i class="bi bi-arrow-right"></i>
+            Move right</button>
+        <button onclick="moveBall('up')" class="btn btn-success">
+            <i class="bi bi-arrow-up"></i>
+            Move Up</button>
+        <button onclick="moveBall('down')" class="btn btn-success">
+            <i class="bi bi-arrow-down"></i>
+            Move down</button>
+    </div>
+    
+
+    <script src="script/vendor.js"></script>
+    <script src="script/app.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
